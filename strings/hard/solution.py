@@ -57,7 +57,7 @@ def minWindowSubstring( s, t):
 
     return minimum_substring
 
-print(minWindowSubstring("ADOBECODEBANC", "ABC")) # BANC
+print(minWindowSubstring("ADOBECODEBANC", "ABC")) # BANC 
 
 # letterDict to store the frequency of each character in t.
 # currLetterDict to keep track of the frequency of characters in the current window of s.
