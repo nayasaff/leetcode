@@ -54,7 +54,7 @@ def myAtoi(s) :
 4. Scenario even : Pointer a first a character, pointer at second b character and iterate ponters to store longest palindrome
 Time complexity : O(N^2)
 """
-def longestPalindrome(self, s):
+def longestPalindromeSubstring(self, s):
 
         right_pointer = 0
         left_pointer = 0
