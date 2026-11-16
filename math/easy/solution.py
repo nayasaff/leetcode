@@ -19,3 +19,4 @@ def isPalindrome( x: int) -> bool:
         x = int(x / 10)
     
     return reversed_int == copied_int
+      

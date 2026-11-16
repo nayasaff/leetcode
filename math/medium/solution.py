@@ -12,7 +12,6 @@ def reverse( x):
         if(not (x >= -2**31 and x <= 2**31 -1 )) :
             return 0
         remainder = x % divided_by
-        print("here")
         if(result is None) :
             result = remainder
         else :
